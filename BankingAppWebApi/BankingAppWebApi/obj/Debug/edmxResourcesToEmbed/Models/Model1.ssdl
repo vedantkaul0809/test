@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankingAppModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdminModule">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdminPassword" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Beneficiary">
+    <Key>
+      <PropertyRef Name="BId" />
+    </Key>
+    <Property Name="BId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HolderAccountNumber" Type="bigint" Nullable="false" />
+    <Property Name="BeneficiaryAccountNumber" Type="bigint" Nullable="false" />
+    <Property Name="BeneficiaryId" Type="int" />
+    <Property Name="Nickname" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="AccountNumber" />
+    </Key>
+    <Property Name="AccountNumber" Type="bigint" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="LoginPassword" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="TransactionPassword" Type="varchar" MaxLength="30" />
+    <Property Name="Balance" Type="bigint" Nullable="false" />
+    <Property Name="ReferenceId" Type="bigint" Nullable="false" />
+    <Property Name="Otp" Type="bigint" />
+    <Property Name="IsApproved" Type="int" />
+    <Property Name="TotalCnt" Type="int" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <EntityType Name="Transactions">
+    <Key>
+      <PropertyRef Name="TId" />
+    </Key>
+    <Property Name="TId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FromAccountNumber" Type="bigint" Nullable="false" />
+    <Property Name="ToAccountNumber" Type="bigint" Nullable="false" />
+    <Property Name="TransactionType" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name="MaturityInstruction" Type="varchar" MaxLength="20" />
+    <Property Name="Remark" Type="varchar" MaxLength="30" />
+    <Property Name="TransactionDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="25" />
+    <Property Name="LastName" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="FatherName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MobileNumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="25" />
+    <Property Name="AadharNumber" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="ResidentialAddressLine1" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ResidentialAddressLine2" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ResidentialLandmark" Type="varchar" MaxLength="30" />
+    <Property Name="ResidentState" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ResidentialCity" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ResidentialPinCode" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="PermanentAddressLine1" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PermanentAddressLine2" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PermanentLandmark" Type="varchar" MaxLength="30" />
+    <Property Name="PermanentState" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PermanentCity" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PermanentPinCode" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="OccupationalType" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SourceOfIncome" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="GrossAnnualIncome" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="IsNetBanking" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="DebitCard" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Beneficia__Benef__6EF57B66">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Beneficiary" Type="Self.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Beneficia__Benef__6FE99F9F">
+    <End Role="UserDetails" Type="Self.UserDetails" Multiplicity="0..1" />
+    <End Role="Beneficiary" Type="Self.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Beneficia__Holde__6E01572D">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Beneficiary" Type="Self.Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="HolderAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Custom__6A30C649">
+    <End Role="UserDetails" Type="Self.UserDetails" Multiplicity="1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__FromA__72C60C4A">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="FromAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__ToAcc__73BA3083">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="ToAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BankingAppModelStoreContainer">
+    <EntitySet Name="AdminModule" EntityType="Self.AdminModule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Beneficiary" EntityType="Self.Beneficiary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserDetails" EntityType="Self.UserDetails" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Beneficia__Benef__6EF57B66" Association="Self.FK__Beneficia__Benef__6EF57B66">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Beneficiary" EntitySet="Beneficiary" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Beneficia__Benef__6FE99F9F" Association="Self.FK__Beneficia__Benef__6FE99F9F">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="Beneficiary" EntitySet="Beneficiary" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Beneficia__Holde__6E01572D" Association="Self.FK__Beneficia__Holde__6E01572D">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Beneficiary" EntitySet="Beneficiary" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Custom__6A30C649" Association="Self.FK__Customer__Custom__6A30C649">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__FromA__72C60C4A" Association="Self.FK__Transacti__FromA__72C60C4A">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__ToAcc__73BA3083" Association="Self.FK__Transacti__ToAcc__73BA3083">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BankingAppModelStoreContainer" CdmEntityContainer="BankingAppEntities">
+    <EntitySetMapping Name="UserDetails">
+      <EntityTypeMapping TypeName="BankingAppModel.UserDetails">
+        <MappingFragment StoreEntitySet="UserDetails">
+          <ScalarProperty Name="DebitCard" ColumnName="DebitCard" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AadharNumber" ColumnName="AadharNumber" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="ResidentialAddressLine1" ColumnName="ResidentialAddressLine1" />
+          <ScalarProperty Name="ResidentialAddressLine2" ColumnName="ResidentialAddressLine2" />
+          <ScalarProperty Name="ResidentialLandmark" ColumnName="ResidentialLandmark" />
+          <ScalarProperty Name="ResidentState" ColumnName="ResidentState" />
+          <ScalarProperty Name="ResidentialCity" ColumnName="ResidentialCity" />
+          <ScalarProperty Name="ResidentialPinCode" ColumnName="ResidentialPinCode" />
+          <ScalarProperty Name="PermanentAddressLine1" ColumnName="PermanentAddressLine1" />
+          <ScalarProperty Name="PermanentAddressLine2" ColumnName="PermanentAddressLine2" />
+          <ScalarProperty Name="PermanentLandmark" ColumnName="PermanentLandmark" />
+          <ScalarProperty Name="PermanentState" ColumnName="PermanentState" />
+          <ScalarProperty Name="PermanentCity" ColumnName="PermanentCity" />
+          <ScalarProperty Name="PermanentPinCode" ColumnName="PermanentPinCode" />
+          <ScalarProperty Name="OccupationalType" ColumnName="OccupationalType" />
+          <ScalarProperty Name="SourceOfIncome" ColumnName="SourceOfIncome" />
+          <ScalarProperty Name="GrossAnnualIncome" ColumnName="GrossAnnualIncome" />
+          <ScalarProperty Name="IsNetBanking" ColumnName="IsNetBanking" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Beneficiaries">
+      <EntityTypeMapping TypeName="BankingAppModel.Beneficiary">
+        <MappingFragment StoreEntitySet="Beneficiary">
+          <ScalarProperty Name="Nickname" ColumnName="Nickname" />
+          <ScalarProperty Name="BeneficiaryId" ColumnName="BeneficiaryId" />
+          <ScalarProperty Name="BeneficiaryAccountNumber" ColumnName="BeneficiaryAccountNumber" />
+          <ScalarProperty Name="HolderAccountNumber" ColumnName="HolderAccountNumber" />
+          <ScalarProperty Name="BId" ColumnName="BId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="BankingAppModel.Transaction">
+        <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="MaturityInstruction" ColumnName="MaturityInstruction" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+          <ScalarProperty Name="ToAccountNumber" ColumnName="ToAccountNumber" />
+          <ScalarProperty Name="FromAccountNumber" ColumnName="FromAccountNumber" />
+          <ScalarProperty Name="TId" ColumnName="TId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminModules">
+      <EntityTypeMapping TypeName="BankingAppModel.AdminModule">
+        <MappingFragment StoreEntitySet="AdminModule">
+          <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="BankingAppModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TotalCnt" ColumnName="TotalCnt" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="Otp" ColumnName="Otp" />
+          <ScalarProperty Name="ReferenceId" ColumnName="ReferenceId" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="TransactionPassword" ColumnName="TransactionPassword" />
+          <ScalarProperty Name="LoginPassword" ColumnName="LoginPassword" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

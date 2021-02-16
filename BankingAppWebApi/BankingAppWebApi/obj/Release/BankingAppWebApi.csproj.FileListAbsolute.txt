@@ -1,0 +1,222 @@
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll.config
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.pdb
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe.config
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.rsp
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe.config
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.rsp
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.AppContext.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Console.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Globalization.Calendars.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Http.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Sockets.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.ValueTuple.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe.config
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.rsp
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Cors.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CoreCompileInputs.cache
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CopyComplete
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.dll
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.pdb
+E:\Training\BANKING PROJECT\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csprojAssemblyReference.cache
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll.config
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.pdb
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe.config
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.rsp
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe.config
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.rsp
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.AppContext.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Console.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Globalization.Calendars.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Http.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Sockets.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.ValueTuple.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe.config
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.rsp
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Cors.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csprojAssemblyReference.cache
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CoreCompileInputs.cache
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CopyComplete
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.dll
+D:\Namana Y Tarikere\LTI\LTI Banking App Project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.pdb
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll.config
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\BankingAppWebApi.pdb
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.exe.config
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csc.rsp
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.exe.config
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\csi.rsp
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.AppContext.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Console.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Globalization.Calendars.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Http.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Net.Sockets.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.ValueTuple.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.exe.config
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\vbc.rsp
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Cors.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\EntityFramework.SqlServer.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.Cors.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\Newtonsoft.Json.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Net.Http.Formatting.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\System.Web.Http.WebHost.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csprojAssemblyReference.cache
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CoreCompileInputs.cache
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.csproj.CopyComplete
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.dll
+E:\Training final project\BankingAppWebApi\BankingAppWebApi\obj\Release\BankingAppWebApi.pdb

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankingAppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="UserDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FatherName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MobileNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="AadharNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ResidentialAddressLine1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ResidentialAddressLine2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ResidentialLandmark" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ResidentState" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ResidentialCity" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ResidentialPinCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PermanentAddressLine1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PermanentAddressLine2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PermanentLandmark" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PermanentState" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PermanentCity" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PermanentPinCode" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OccupationalType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SourceOfIncome" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GrossAnnualIncome" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IsNetBanking" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DebitCard" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Beneficiaries" Relationship="BankingAppModel.FK__Beneficia__Benef__44FF419A" FromRole="UserDetails" ToRole="Beneficiary" />
+    <NavigationProperty Name="Customers" Relationship="BankingAppModel.FK__Customer__Custom__6A30C649" FromRole="UserDetails" ToRole="Customer" />
+  </EntityType>
+  <EntityContainer Name="BankingAppEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserDetails" EntityType="BankingAppModel.UserDetails" />
+    <EntitySet Name="Beneficiaries" EntityType="BankingAppModel.Beneficiary" />
+    <AssociationSet Name="FK__Beneficia__Benef__44FF419A" Association="BankingAppModel.FK__Beneficia__Benef__44FF419A">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <EntitySet Name="Transactions" EntityType="BankingAppModel.Transaction" />
+    <EntitySet Name="AdminModules" EntityType="BankingAppModel.AdminModule" />
+    <EntitySet Name="Customers" EntityType="BankingAppModel.Customer" />
+    <AssociationSet Name="FK__Beneficia__Benef__6EF57B66" Association="BankingAppModel.FK__Beneficia__Benef__6EF57B66">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Beneficia__Holde__6E01572D" Association="BankingAppModel.FK__Beneficia__Holde__6E01572D">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Beneficiary" EntitySet="Beneficiaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Custom__6A30C649" Association="BankingAppModel.FK__Customer__Custom__6A30C649">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__FromA__72C60C4A" Association="BankingAppModel.FK__Transacti__FromA__72C60C4A">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__ToAcc__73BA3083" Association="BankingAppModel.FK__Transacti__ToAcc__73BA3083">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <FunctionImport Name="UserLogin" ReturnType="Collection(BankingAppModel.UserLogin_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Beneficiary">
+    <Key>
+      <PropertyRef Name="BId" />
+    </Key>
+    <Property Name="BId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HolderAccountNumber" Type="Int64" Nullable="false" />
+    <Property Name="BeneficiaryAccountNumber" Type="Int64" Nullable="false" />
+    <Property Name="BeneficiaryId" Type="Int32" />
+    <Property Name="Nickname" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="UserDetail" Relationship="BankingAppModel.FK__Beneficia__Benef__44FF419A" FromRole="Beneficiary" ToRole="UserDetails" />
+    <NavigationProperty Name="Customer" Relationship="BankingAppModel.FK__Beneficia__Benef__6EF57B66" FromRole="Beneficiary" ToRole="Customer" />
+    <NavigationProperty Name="Customer1" Relationship="BankingAppModel.FK__Beneficia__Holde__6E01572D" FromRole="Beneficiary" ToRole="Customer" />
+  </EntityType>
+  <Association Name="FK__Beneficia__Benef__44FF419A">
+    <End Type="BankingAppModel.UserDetails" Role="UserDetails" Multiplicity="0..1" />
+    <End Type="BankingAppModel.Beneficiary" Role="Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="TId" />
+    </Key>
+    <Property Name="TId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FromAccountNumber" Type="Int64" Nullable="false" />
+    <Property Name="ToAccountNumber" Type="Int64" Nullable="false" />
+    <Property Name="TransactionType" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="MaturityInstruction" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Remark" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="BankingAppModel.FK__Transacti__FromA__72C60C4A" FromRole="Transaction" ToRole="Customer" />
+    <NavigationProperty Name="Customer1" Relationship="BankingAppModel.FK__Transacti__ToAcc__73BA3083" FromRole="Transaction" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="AdminModule">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminPassword" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="AccountNumber" />
+    </Key>
+    <Property Name="AccountNumber" Type="Int64" Nullable="false" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="LoginPassword" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TransactionPassword" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Balance" Type="Int64" Nullable="false" />
+    <Property Name="ReferenceId" Type="Int64" Nullable="false" />
+    <Property Name="Otp" Type="Int64" />
+    <Property Name="IsApproved" Type="Int32" />
+    <Property Name="TotalCnt" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+    <NavigationProperty Name="Beneficiaries" Relationship="BankingAppModel.FK__Beneficia__Benef__6EF57B66" FromRole="Customer" ToRole="Beneficiary" />
+    <NavigationProperty Name="Beneficiaries1" Relationship="BankingAppModel.FK__Beneficia__Holde__6E01572D" FromRole="Customer" ToRole="Beneficiary" />
+    <NavigationProperty Name="UserDetail" Relationship="BankingAppModel.FK__Customer__Custom__6A30C649" FromRole="Customer" ToRole="UserDetails" />
+    <NavigationProperty Name="Transactions" Relationship="BankingAppModel.FK__Transacti__FromA__72C60C4A" FromRole="Customer" ToRole="Transaction" />
+    <NavigationProperty Name="Transactions1" Relationship="BankingAppModel.FK__Transacti__ToAcc__73BA3083" FromRole="Customer" ToRole="Transaction" />
+  </EntityType>
+  <Association Name="FK__Beneficia__Benef__6EF57B66">
+    <End Type="BankingAppModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="BankingAppModel.Beneficiary" Role="Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="BeneficiaryAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Beneficia__Holde__6E01572D">
+    <End Type="BankingAppModel.Customer" Role="Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BankingAppModel.Beneficiary" Role="Beneficiary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Beneficiary">
+        <PropertyRef Name="HolderAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Custom__6A30C649">
+    <End Type="BankingAppModel.UserDetails" Role="UserDetails" Multiplicity="1" />
+    <End Type="BankingAppModel.Customer" Role="Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__FromA__72C60C4A">
+    <End Type="BankingAppModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="BankingAppModel.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="FromAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__ToAcc__73BA3083">
+    <End Type="BankingAppModel.Customer" Role="Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BankingAppModel.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="ToAccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="UserLogin_Result">
+    <Property Type="Int64" Name="AccountNumber" Nullable="false" />
+    <Property Type="Int32" Name="CustomerId" Nullable="false" />
+    <Property Type="String" Name="LoginPassword" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="TransactionPassword" Nullable="true" MaxLength="30" />
+    <Property Type="Int64" Name="Balance" Nullable="false" />
+    <Property Type="Int64" Name="ReferenceId" Nullable="false" />
+    <Property Type="Int64" Name="Otp" Nullable="true" />
+    <Property Type="Int32" Name="IsApproved" Nullable="true" />
+    <Property Type="Int32" Name="TotalCnt" Nullable="true" />
+    <Property Type="Int32" Name="Status" Nullable="true" />
+  </ComplexType>
+</Schema>
