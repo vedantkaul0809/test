@@ -9,9 +9,7 @@ using System.Web.Http.Cors;
 
 namespace BankingAppWebApi.Controllers
 {
-    //first change
-    //secomd change
-    //third changes
+    
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AdminModuleController : ApiController
     {
