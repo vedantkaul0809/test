@@ -12,7 +12,7 @@ namespace BankingAppWebApi.Controllers
 {
     
    //change 1 in beneficiary
-   //change 2
+  
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class BeneficiaryController : ApiController
     {
