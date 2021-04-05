@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace BankingAppWebApi.Controllers
 {
-   
+   //this is change in customer controller using branch 2
     
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CustomerController : ApiController
