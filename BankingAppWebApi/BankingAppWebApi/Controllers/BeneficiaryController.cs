@@ -11,7 +11,7 @@ using System.Web.Http.Cors;
 namespace BankingAppWebApi.Controllers
 {
     
-   
+   //this is change 1 in benefeciary controller
   
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class BeneficiaryController : ApiController
