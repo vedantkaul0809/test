@@ -12,6 +12,7 @@ namespace BankingAppWebApi.Controllers
    
    //change 1 in admin controller
     //new change in admin controller by branch 
+
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AdminModuleController : ApiController
     {
