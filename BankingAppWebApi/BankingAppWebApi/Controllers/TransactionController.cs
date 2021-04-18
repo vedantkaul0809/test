@@ -8,7 +8,7 @@ using BankingAppWebApi.Models;
 using System.Web.Http.Cors;
 
 
-//change 1 done in transaction controller by branch1
+
 namespace BankingAppWebApi.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]

@@ -13,7 +13,7 @@ namespace BankingAppWebApi.Controllers
     
     
 
-    //change in userdetails using branch1
+   
 
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UserDetailsController : ApiController
