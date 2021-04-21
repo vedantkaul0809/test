@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace BankingAppWebApi.Controllers
 {
-    //change in beneficiary using branchmerge
+    
   
   
     [EnableCors(origins: "*", headers: "*", methods: "*")]
