@@ -10,7 +10,13 @@ using System.Web.Http.Cors;
 
 namespace BankingAppWebApi.Controllers
 {
+<<<<<<< HEAD
     //change for stash
+=======
+    //changing customer file 
+    //changing customer file from my end
+    //ONE  MORE CHANGE
+>>>>>>> 6a4dd18 (COMMIT2)
     
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CustomerController : ApiController
