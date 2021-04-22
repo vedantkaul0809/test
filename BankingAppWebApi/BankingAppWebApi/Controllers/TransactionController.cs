@@ -11,7 +11,7 @@ using System.Web.Http.Cors;
 
 namespace BankingAppWebApi.Controllers
 {
-    //CHANGE 1 DONE IN TRANSACTION
+    
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TransactionController : ApiController
     {
